@@ -1,17 +1,17 @@
 # SC1
 
-#Blockchain-Based Land Registry  
+# Blockchain-Based Land Registry  
 
-#Overview  
+# Overview  
 This smart contract provides a secure and transparent system for managing land ownership records on the blockchain. It eliminates fraudulent claims by ensuring immutability and secure ownership transfers.  
 
-#Features  
+# Features  
     -Users can register a property with a unique ID and details.  
     -Anyone can check the owner and details of a registered property.  
     -Only the current owner can transfer the property to another address.  
     -All transactions are stored permanently on the blockchain, preventing fraud.  
 
-#How It Works  
+# How It Works  
 
 1.Registering a Land Property  
     -A user provides a unique land ID and property details.  
@@ -26,14 +26,14 @@ This smart contract provides a secure and transparent system for managing land o
     -Only the current owner can transfer ownership to a new address.  
     -The new owner is recorded on the blockchain, ensuring a transparent transaction.  
 
-#Deployment and Usage  
+# Deployment and Usage  
     -Deploy the contract using Remix IDE or any Ethereum-compatible environment.  
     -Ensure the Solidity compiler version is 0.8.24.  
     -Call the registerLand function to register a property.  
     -Use getLandDetails to check ownership and details.  
     -Call transferOwnership to transfer a property to another address.  
 
-#Dummy Inputs  
+# Dummy Inputs  
 
 Registering a Property  
     -Land ID 101  
@@ -46,7 +46,7 @@ Transferring Ownership
     -Land ID 101  
     -New Owner Address 0xDEF456789 transfers ownership.  
 
-#Notes  
+# Notes  
     -Each property must have a unique ID.  
     -Only the owner can transfer ownership.  
     -All transactions are permanently recorded on the blockchain.  
@@ -58,7 +58,7 @@ Transferring Ownership
 
 
 
-#Creating a Ticket system Smart Contract and running it on remix ide.
+
 
 # Ticket System Smart Contract  
 
